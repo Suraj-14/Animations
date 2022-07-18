@@ -10,6 +10,7 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 	}
+  ...
   
   > Step 2. Add the dependency
   ...gradle
@@ -17,3 +18,4 @@ allprojects {
   dependencies {
 	        implementation 'com.github.Suraj-14:Animations:Tag'
 	}
+...
