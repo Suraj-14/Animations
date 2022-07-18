@@ -16,6 +16,6 @@ new
   
   
 	  dependencies {
-			implementation 'com.github.Suraj-14:Animations:Tag'
+			implementation 'com.github.Suraj-14:Animations:1.0.0'
 		}
 
