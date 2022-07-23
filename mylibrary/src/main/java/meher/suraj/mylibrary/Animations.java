@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
 import android.view.View;
+import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import androidx.annotation.NonNull;
@@ -23,6 +24,9 @@ public class Animations {
     }
     public static void setAnimation(FragmentTransaction fragmentTransaction, Type animation){
         chooseAnimation(animation,fragmentTransaction);
+    }
+    public static Animation setAnimation(Context context, Type animation){
+        return chooseAnimation(animation,context);
     }
     @SuppressLint("ResourceType")
     @NonNull
